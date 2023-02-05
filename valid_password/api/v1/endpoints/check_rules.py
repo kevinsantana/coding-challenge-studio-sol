@@ -27,7 +27,4 @@ def checker(check: RuleRequest = Body(..., description="")) -> Any:
             no_match.append(rule["rule"])
             verify = False
 
-    return {
-        "verify": verify,
-        "noMatch": no_match
-    }
+    return {"verify": verify, "noMatch": no_match}

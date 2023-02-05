@@ -1,6 +1,13 @@
 import re
 
-from valid_password.core.regex import length, uppercase, lowercase, digits, special_chars, repeated_chars
+from valid_password.core.regex import (
+    length,
+    uppercase,
+    lowercase,
+    digits,
+    special_chars,
+    repeated_chars,
+)
 
 
 def is_valid_rule(secret: str, size: int, rule: str) -> bool:
