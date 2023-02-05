@@ -1,6 +1,6 @@
-length = r'^.{{{size},}}$'
-uppercase = r'[A-Z]'
-lowercase = r'[a-z]'
-digits = r'[0-9]'
-special_chars = r'[!@#$%^&*\(\)\-+\\\/\{\}[\]]'
-repeated_chars = r'(\w)\1+'
+length = r"^.{{{size},}}$"
+uppercase = r"[A-Z]"
+lowercase = r"[a-z]"
+digits = r"[0-9]"
+special_chars = r"[!@#$%^&*\(\)\-+\\\/\{\}[\]]"
+repeated_chars = r"(\w)\1+"

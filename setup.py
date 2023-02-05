@@ -66,5 +66,5 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     install_requires=run_requirements,
-    python_requires=">=3.10.8",
+    python_requires=">=3.10.6",
 )
