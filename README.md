@@ -32,6 +32,6 @@ docker container exec -it valid-password pytest -v
 
 All the rights belong to the author Kevin de Santana Araujo.
 
-## Outras informações
+## Miscellaneous
 
 * If you have any doubts, or, want to contribute or even criticize the project, feel fre to open an [issue]() or reach me out through kevin santana.araujo@hotmail.com
