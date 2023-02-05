@@ -74,7 +74,7 @@ def start_application():
     app = FastAPI(
         title="VALID-PASSWORD-API",
         version=__version__,
-        docs_url="/v1/swagger",
+        docs_url="/v1/docs",
     )
     include_router(app)
     load_exceptions(app)
